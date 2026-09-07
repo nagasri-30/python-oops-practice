@@ -1,0 +1,5 @@
+Arthematic operator:(+)
+print(10+20)
+print("hello"+"kprit")
+print(2*3)
+print("hai"*3)
