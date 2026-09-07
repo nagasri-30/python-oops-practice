@@ -1,0 +1,6 @@
+class Demo():
+def addition(self,a,b=0,c=0):
+return a+b+c
+d=Demo()
+print(d.addition(10,20))
+print(d.addition(5,1,5))
