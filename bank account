@@ -1,0 +1,23 @@
+class BankAccount():
+    Holdername="Nagasri"
+    acc_no = "xxxxxxxxx09"
+    Balance = 50000
+    def deposit(self,value):
+        self.Balance=value+self.Balance
+        print(self.Balance)
+    def withdraw(self,cash):
+        self.Balance=self.Balance-cash
+        print(self.Balance)
+    def displayBalance(self):
+        
+        print("Holdername:",self.Holdername)
+        print("acc_no:",self.acc_no)
+        print("Balance:",self.Balance)
+i=BankAccount()
+value=int(input("Enter deposit amount:"))
+i.deposit(value)
+cash=int(input("Enter withdraw amount :"))
+i.withdraw(cash)
+i.displayBalance()
+       
+    
