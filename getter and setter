@@ -1,0 +1,22 @@
+class Student:
+
+    def __init__(self):
+        self.__marks = 0
+
+    # Getter
+    def get_marks(self):
+        return self.__marks
+
+    # Setter
+    def set_marks(self, marks):
+        if 0 <= marks <= 100:
+            self.__marks = marks
+        else:
+            print("Invalid marks")
+
+
+student = Student()
+
+student.set_marks(85)
+
+print("Marks:", student.get_marks())
