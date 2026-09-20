@@ -1,0 +1,7 @@
+# Polymorphism using built-in functions
+
+print(len("Python"))
+print(len([10, 20, 30, 40]))
+
+print(10 + 20)
+print("Hello " + "Python")
