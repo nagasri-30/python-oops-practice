@@ -1,0 +1,25 @@
+class Vehicle:
+    brand="Toyota"
+    model="Fortuner"
+    def display_details(self):
+        print("brand:",self.brand)
+        print("model:",self.model)
+class car(Vehicle):
+    doors=4
+    colour="red"
+    def display_car(self):
+        print("Doors:", self.doors)
+        print("Colour:",self.colour)
+class bike(Vehicle):
+    name="royalenfield"
+    cc=125
+    def display_bike(self):
+        print("name:",self.name)
+        print("cc:",self.cc)
+Car=car()
+Bike=bike()
+
+Car.display_car()
+Bike.display_bike()
+        
+        
